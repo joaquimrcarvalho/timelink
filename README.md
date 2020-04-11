@@ -11,4 +11,6 @@ Timelink provides:
 * a text processor that extracts information from the kleio transcriptions, infers personal attributes and relations from agent roles in historical events and generates data in formats suitable for database import.
 * a database management system capable of processing time varying attributes and relations, assist in reconstructing biographies and networks from fragmentary information.
 
-Timelink is open source MIT License software available at http://github.com/joaquimrcarvalho/timelink
+Timelink is open source MIT License.
+For instalation instructions see: https://hub.docker.com/repository/docker/joaquimrcarvalho/mhk-manager
+
