@@ -13,5 +13,5 @@ Timelink provides:
 
 Timelink is open source MIT License.
 
-For instalation instructions see: [https://hub.docker.com/repository/docker/joaquimrcarvalho/mhk-manager]
+For instalation instructions see: https://hub.docker.com/repository/docker/joaquimrcarvalho/mhk-manager
 
