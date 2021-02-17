@@ -9,8 +9,11 @@ Timelink provides:
 * a text processor that extracts information from the kleio transcriptions, infers personal attributes and relations from agent roles in historical events and generates data in formats suitable for database import.
 * a database management system capable of processing time varying attributes and relations, assist in reconstructing biographies and networks from fragmentary information.
 
-Timelink is open source MIT License (see [https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT))
+Timelink is open source MIT License ([https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT))
 
 For instalation instructions see:
    [http://hub.docker.com/repository/docker/joaquimrcarvalho/mhk-manager](http://hub.docker.com/repository/docker/joaquimrcarvalho/mhk-manager)
 
+A public site with sample databases is available at [http://timelink.uc.pt/mhk2019](http://timelink.uc.pt/mhk2019)
+
+This page is available at [https://joaquimrcarvalho.github.io/timelink/](https://joaquimrcarvalho.github.io/timelink/)
