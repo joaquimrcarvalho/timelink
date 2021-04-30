@@ -92,5 +92,15 @@ If all services pass QA then use the following targets to publish the update to 
 	docker-push-latest
 	docker-push-stable
 
+## Details
+
+The docker compose file used to run and "pull" the images from the repository used the tag in the environment variable `TAG`.
+
+The current value for the variable is stored in file `mhk-home/app/.env`.
+
+The command `mhk use-tag` sets the value of `TAG`in the file.
+
+If the variable is not set at the time execution of the commands `start`, `up` and `update`. the manager sets it to `latest`.
+
 
 
