@@ -43,11 +43,12 @@ Since each build increments the global build number the images of the different 
 
 The target 
 
-	docker-push-latest
+    docker-push-latest
 
  tags the most recent images with no tags with the tag `latest` and pushes them to docker hub. Use this to allow mhk instalations to update to the latest version.
 
- 	docker-push-stable
+
+    docker-push-stable
 
 Pushes the images with the tag `$version-minor-version` currently on the local machine. The version numbers are the current ones in the build.xml file. Use this if for some reason you need to update installations that want to remain in a previous version. Note that those installations must have been set up to update from a specific version, and not from latest
 
