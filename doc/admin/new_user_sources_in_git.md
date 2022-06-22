@@ -59,7 +59,7 @@ Also set a reasonable interval to run the checks, in seconds, for instance every
 
     mhk user properties myuser set mhk.import.auto.delay 120
 
-6. Optionally set git auto pull
+## 6. Optionally set git auto pull
 
 If you want to keep your repository synchronised with the remote repository on GitHub or similar you can have mhk to do a periodical auto pull.
 > Note this only makes sense if you are sitting up a replica and the sources are being updated by someone else and you just want to keep your local copy in sync.
@@ -87,6 +87,6 @@ mhk user properties $USER set mhk.import.pull.before yes; \
 mhk user properties $USER set mhk.admin $USER; \
 mhk user properties $USER set mhk.import.authority.backup yes
 
-If you want to have automatic synchronisation of identification files do
+If you want to have automatic synchronization of identification files do
 
 mhk user properties $USER set mhk.import.authority.backup yes
