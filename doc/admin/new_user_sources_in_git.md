@@ -71,21 +71,21 @@ You can also set the delay between pulls in minutes
     mhk user properties myuser set mhk.git.pull.auto.delay 5
 
 
-### Summary
+# Summary
 
     USER=myuser; DB=mydb;  SOURCES=mysources
 
     mhk user create $USER  --database $DB --level 3 --sources $SOURCES
 
-set up a replica with sync of ids
+## set up a replica with sync of ids
 
-mhk user properties $USER set mhk.import.auto yes-with-warnings; \
-mhk user properties $USER set mhk.import.auto.delay 120; \
-mhk user properties $USER set mhk.git.pull.auto yes; \
-mhk user properties $USER set mhk.git.pull.auto.delay 10; \
-mhk user properties $USER set mhk.import.pull.before yes; \
-mhk user properties $USER set mhk.admin $USER; \
-mhk user properties $USER set mhk.import.authority.backup yes
+    mhk user properties $USER set mhk.import.auto yes-with-warnings; \
+    mhk user properties $USER set mhk.import.auto.delay 120; \
+    mhk user properties $USER set mhk.git.pull.auto yes; \
+    mhk user properties $USER set mhk.git.pull.auto.delay 10; \
+    mhk user properties $USER set mhk.import.pull.before yes; \
+    mhk user properties $USER set mhk.admin $USER; \
+    mhk user properties $USER set mhk.import.authority.backup yes
 
 If you want to have automatic synchronization of identification files do
 
