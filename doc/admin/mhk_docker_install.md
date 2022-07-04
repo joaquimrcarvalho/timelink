@@ -91,7 +91,7 @@ mhk --help
 For more information on this see: https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/
 
  
-### On Linux (tested on CentOs )###
+### On Linux (tested on CentOs)
 
 Make sure that user running the docker command is part of group docker (`sudo usermod -a -G docker $USER`)
 
