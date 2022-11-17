@@ -83,12 +83,14 @@ mhk --help
 
 5. To see the contents mhk-home in windows file explorer:
 
-* open windows file explorer
-* in the address bar type \\wsl$
-* open the Ubuntu folder, then the home folder  and then then folder of the user created in step 2
-* mhk-home folder will be found in the user folder. You can create an alias or pin it to the start menu for convenience
+Type wsl in the search field of the windows task bar.
 
-For more information on this see: https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/
+On the terminal window type:
+```bash
+cd
+cd mhk-home
+explorer.exe .
+```
 
  
 ### On Linux (tested on CentOs)
