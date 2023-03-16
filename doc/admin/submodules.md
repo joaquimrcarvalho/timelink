@@ -22,3 +22,4 @@ In a terminal in the sources directory of the project do:
 ```bash
 git submodule update --remote --merge
 ```
+> from https://stackoverflow.com/questions/5828324/update-git-submodule-to-latest-commit-on-origin
