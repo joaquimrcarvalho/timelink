@@ -23,6 +23,9 @@ Follow these [instructions](https://docs.github.com/en/authentication/keeping-yo
 
 ## 4. Create a timelink/MHK user
 
+If you have a local Timelink/MHK installation, you should create a `timelink` user
+to process the data and create a database from the information in the repository.
+
 To create a `timelink` user connected to the new repository follow 
 [these instructions](new_user_sources_in_git.md).
 
