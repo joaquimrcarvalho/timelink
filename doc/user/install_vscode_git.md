@@ -12,12 +12,22 @@ as well as the Timelink extension for VSCode.
 
 1. Download and install Git from [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+
+## Install the GitHub Pull Requests and Issues extension for VSCode
+
+1. Open VSCode
+2. Click on the Extensions icon in the left menu
+3. Search for "GitHub Pull Requests and Issues"
+4. Select GitHub Pull Requests and Issues
+5. Click on the Install button
+    
 ## Install the Timelink extension for VSCode
 
 1. Open VSCode
 2. Click on the Extensions icon in the left menu
 3. Search for "Timelink"
 4. Select Time Link Bundle (Web version)
+5. Click the "Reload" button to reload VSCode
    
 
 ## Create an account in GitHub
