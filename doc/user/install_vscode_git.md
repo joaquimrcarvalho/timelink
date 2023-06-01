@@ -1,7 +1,7 @@
 # Install VSCode and Git for Timelink data entry
 
 To be able to enter data in Timelink, you need to install VSCode and Git,
-as weel as the Timelink extension for VSCode.
+as well as the Timelink extension for VSCode.
 
 ## Install VSCode
 
