@@ -12,7 +12,9 @@ as well as the Timelink extension for VSCode.
 
 1. Download and install Git from [https://git-scm.com/downloads](https://git-scm.com/downloads)
 
+## Create an account in GitHub
 
+1. Create an account in [GitHub](http://github.com)    
 ## Install the GitHub Pull Requests and Issues extension for VSCode
 
 1. Open VSCode
@@ -20,6 +22,26 @@ as well as the Timelink extension for VSCode.
 3. Search for "GitHub Pull Requests and Issues"
 4. Select GitHub Pull Requests and Issues
 5. Click on the Install button
+
+## Configure Git in VSCode
+
+Git needs your name and email to be able to commit changes to the repository,
+so that others know who made the changes.
+
+Git also needs to know how to merge changes from the repository with your
+local changes. There are two alternatives: merge or rebase. The recommended
+strategy is rebase, so that is what we will configure. To know more about
+the difference between merge and rebase, see [this article](https://sdq.kastel.kit.edu/wiki/Git_pull_--rebase_vs._--merge)
+
+1. Open VSCode (quit and restart if it was already open)
+2. Open a terminal window (View -> Terminal)
+3. Type the following commands in the terminal window:
+   ```
+   git config --global user.name "Your Name"
+   git config --global user.email "Your email"
+   git config --global pull.rebase true
+   ```
+4. Close the terminal window
     
 ## Install the Timelink extension for VSCode
 
@@ -29,10 +51,6 @@ as well as the Timelink extension for VSCode.
 4. Select Time Link Bundle (Web version)
 5. Click the "Reload" button to reload VSCode
    
-
-## Create an account in GitHub
-
-1. Create an account in [GitHub](http://github.com) 
 
 ## Create a Timelink source repository or clone and existing one
 
