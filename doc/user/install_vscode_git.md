@@ -58,7 +58,7 @@ To create Timelink files with VSCode, you need to create a Timelink source repos
 
 ### To create a new Timelink source repository
 
-For new projects create a Timelink source repository from the [Timelink sources template](https://github.com/joaquimrcarvalho/timelink-sources-template).
+For new projects create a Timelink source repository from the [Timelink sources template](https://github.com/joaquimrcarvalho/timelink-sources-template). Check the instructions there.
 
 1. Login in Github.com
 2. Then go to https://github.com/joaquimrcarvalho/timelink-sources-template 
