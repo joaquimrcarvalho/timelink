@@ -2,7 +2,12 @@
 
 This explains how to create a MHK user in a local computer with the sources directory linked from a git repository
 
-First you need to have a git repository for sources files. To create one see DOC creating a new Git repository for Kleio files
+First you need to have a git repository for sources files. 
+
+If you are stating a new project it is recommended you
+use the recommended layout for source files, by using
+the template directory. See [this info](new_source_repository_from_template.md).
+
 
 # Get the sources from git
 
