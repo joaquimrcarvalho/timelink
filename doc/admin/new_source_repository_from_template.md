@@ -19,7 +19,9 @@ necessary to select the `Include all branches` option.
 If you choose to create a private repository, or if you plan to push back updates,  you will need to
 generate a _personal access token_ for MHK to access the repository.
 
-Follow these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on how to generate the _personal access token_.
+Follow these [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) on how to generate the _personal access token_.  The simples form is to generate a "classic" token with the `repo` scope. See https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic 
+
+The token will be used by `Timelink/MHK` to access the repository. It is important to keep it secret.
 
 ## 4. Create a timelink/MHK user
 

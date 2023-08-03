@@ -54,17 +54,15 @@ the difference between merge and rebase, see [this article](https://sdq.kastel.k
 
 ## Create a Timelink source repository or clone and existing one
 
-To create Timelink files with VSCode, you need to create a Timelink source repository, or clone an existing one.
+To create Timelink files with VSCode, you need to create a Timelink source repository, or clone an existing one.  If you already have a directory with
+kleio files, you can put it under version control with git: see [this info](new_source_repository_from_existing_directory.md)
+
 
 ### To create a new Timelink source repository
 
-For new projects create a Timelink source repository from the [Timelink sources template](https://github.com/joaquimrcarvalho/timelink-sources-template). Check the instructions there.
+For new projects create a Timelink source repository from the [Timelink sources template](https://github.com/joaquimrcarvalho/timelink-sources-template). Check the instructions [here](../admin/new_source_repository_from_template.md).
 
-1. Login in Github.com
-2. Then go to https://github.com/joaquimrcarvalho/timelink-sources-template 
-3. Click the `Use this template` button. 
-4. Choose a name for the project repository, decide if it is public or private,  and click on `Create repository from template`. It is not
-necessary to select the `Include all branches` option.
+
 
 ### To clone an existing Timelink source repository
 
