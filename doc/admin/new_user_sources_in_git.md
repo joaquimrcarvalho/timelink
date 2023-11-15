@@ -94,4 +94,4 @@ You can also set the delay between pulls in minutes
 
 If you want to have automatic synchronization of identification files do
 
-mhk user properties $USER set mhk.import.authority.backup yes
+     mhk user properties $USER set mhk.import.authority.backup yes
