@@ -17,7 +17,9 @@ Use this as a template to document internally each new project
 
 # Commands
 
-    USER=myuser; DB=mydb;  SOURCES=mysources
+Choose values for USER, DB and SOURCEDIR
+
+    USER=myuser; DB=mydb;  SOURCEDIR=mysources
 
     mhk sources clone GITURL TOKEN SOURCEDIR
     mhk user create $USER  --database $DB --level 3 --sources $SOURCEDIR
