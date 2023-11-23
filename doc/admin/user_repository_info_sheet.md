@@ -34,7 +34,7 @@ Choose values for USER, DB and SOURCEDIR
     mhk user properties $USER set mhk.git.pull.auto yes
     mhk user properties $USER set mhk.git.pull.auto.delay 10 # seconds
     mhk user properties $USER set mhk.import.auto yes-with-warnings
-    mhk user properties $USER mhk.import.auto.delay 120 # seconds
+    mhk user properties $USER set mhk.import.auto.delay 120 # seconds
     mhk user properties $USER set mhk.import.pull.before yes
     mhk user properties $USER set mhk.import.authority.backup yes
 
