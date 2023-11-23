@@ -5,17 +5,20 @@ layout for the directory containing the project `kleio` sources was
 created.
 
 ## 1. Register in github
-To create a new git repository for a new project you to
-register with `github` first at http://github.com.
+To create a new git repository for a new project you 
+need first to register or login  with `github` at http://github.com.
 
 ## 2. Create a repository
 Then go to https://github.com/joaquimrcarvalho/timelink-sources-template 
-and click the `Use this template` button. 
+and click the `Use this template` green button. 
 
-Choose a name for the project repository, decide if it is public or private,  and click on `Create repository from template`. It is not
+Choose a name for the project repository, decide if it is public or private,  and click on `Create repository from template`. 
+
+It is not
 necessary to select the `Include all branches` option.
 
 ## 3. Generate a _personal access token_  
+
 If you choose to create a private repository, or if you plan to push back updates,  you will need to
 generate a _personal access token_ for MHK to access the repository.
 
