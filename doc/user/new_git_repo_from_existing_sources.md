@@ -2,7 +2,10 @@
 
 If you have an existing Kleio installation and want to share the files with git, you can do it by creating a new git repository in the directory containing the Kleio files.
 
-1. Install VSCode, Git and the timelink extension. See [this info](install_vscode_git.md).
+Alternatively you can create a new repository with standard structure and
+copy your existing files to it (see [this](new_source_repository_from_template.md))
+
+1. Install VSCode, Git and the Timelink extension. See [this info](install_vscode_git.md).
 2. In VSCode open the directory containing your Kleio files.
 3. Select the "Source Control" icon in the left menu.
 4. You should see a message saying "The folder currently open doesn't have 

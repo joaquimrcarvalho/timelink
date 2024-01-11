@@ -4,16 +4,20 @@ This explains how to create a MHK user in a local computer with the sources dire
 
 First you need to have a git repository for sources files. 
 
-If you are stating a new project it is recommended you
-use the recommended layout for source files, by using
-the template directory. See [this info](new_source_repository_from_template.md).
+If you are starting a new project it is recommended you
+create a directory with the standard layout for source files, by using
+the directory template. See [this info](../user/new_source_repository_from_template.md).
+
+If you have existing sources you can either create a new standard
+directory as above or keep the original files in place and share
+the directory with git. See [new git repository from existing files](user/new_git_repo_from_existing_sources.md)
 
 
 # Get the sources from git
 
 ## 1. Get the Git information
 
-You will need the URL of the git repository and a Personal access token. See the documentation above on how to create a repository and a Personal access token.
+You will need the URL of the git repository and a personal access token. See the documentation above on how to create a repository and a Personal access token.
 
 ## 2. Determine a name for the sources directory
 

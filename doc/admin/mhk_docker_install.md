@@ -1,6 +1,6 @@
-# MHK/Timelink manager and installer (experimental)
+# MHK/Timelink manager and installer
 
-Installs MHK/Timelink on Linux, Macos and Windows machines, using Docker and provides command line management commands for MHK.
+Installs MHK/Timelink on Linux, MacOS and Windows machines, using Docker and provides command line management commands for MHK.
 
 You need to install Docker Desktop on MacOS and Windows, and on Linux using the system package manager.
 
@@ -62,9 +62,25 @@ Check https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your
 
 Goto https://docs.docker.com/docker-for-windows/wsl/#download
 
-4. Enter the `WSL` command window:
+4. Configure docker permissions 
 
-Type wsl in the search field of the windows task bar.
+Before installing `mhk` it is necessary to configure permissions
+for docker on wsl. This is done only once after installing `docker`.
+(see https://stackoverflow.com/questions/72528606/docker-rancher-permission-denied-when-using-docker-from-wsl)
+
+```console
+sudo addgroup --system docker
+sudo adduser $USER docker
+newgrp docker
+sudo chown root:docker /var/run/docker.sock
+sudo chmod g+w /var/run/docker.sock
+exit
+```
+
+5. Enter the `WSL` command window:
+
+Type `wsl` in the search field of the windows task bar.
+
 
 On the terminal window type:
 
@@ -72,28 +88,27 @@ On the terminal window type:
 cd 
 mkdir -p mhk-home
 cd mhk-home
-docker run -v ${PWD}:/mhk-home -it joaquimrcarvalho/mhk-manager mhk-install && sh app/manager init
+docker run -v ${PWD}:/mhk-home -it  --user "$(id -u):$(id -g)"  joaquimrcarvalho/mhk-manager mhk-install && sh app/manager init
 ```
 After installation type 
 
 ```bash
+cd
+source .bash_profile
 mhk --help
 ```
 
+6. To see the contents mhk-home in windows file explorer:
 
-5. To see the contents mhk-home in windows file explorer:
+* open windows file explorer
+* in the address bar type \\wsl$
+* open the Ubuntu folder, then the home folder  and then then folder of the user created in step 2
+* mhk-home folder will be found in the user folder. You can create an alias or pin it to the start menu for convenience
 
-Type wsl in the search field of the windows task bar.
-
-On the terminal window type:
-```bash
-cd
-cd mhk-home
-explorer.exe .
-```
+For more information on this see: https://devblogs.microsoft.com/commandline/access-linux-filesystems-in-windows-and-wsl-2/
 
  
-### On Linux (tested on CentOs)
+### On Linux (tested on CentOs )###
 
 Make sure that user running the docker command is part of group docker (`sudo usermod -a -G docker $USER`)
 
@@ -105,6 +120,8 @@ cd mhk-home
 docker run -v ${PWD}:/mhk-home -it  --user "$(id -u):$(id -g)"  joaquimrcarvalho/mhk-manager mhk-install && sh app/manager init
 ```
 
+
+## After installation
 
 Test if the install was successful in a new terminal window :
 
