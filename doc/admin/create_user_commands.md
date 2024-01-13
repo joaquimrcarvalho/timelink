@@ -32,4 +32,5 @@ if the WEBURL of the project is know:
 
 ```bash
 mhk set-url www.mysite.org
+mhk open
 ```
