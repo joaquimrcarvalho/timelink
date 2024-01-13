@@ -1,6 +1,6 @@
 # Directory layout of timelink/mhk instalations
 
-A single directory, called `mhk-home` contains all that is necessary to run timelink. 
+A single directory, called `mhk-home` (alternatively `timelink-home`) contains all that is necessary to run timelink. 
 
 It contains the following subdirectories:
 
@@ -38,4 +38,6 @@ It contains the following subdirectories:
         * inferences -- inferred information, such as rules
         * kleio -- kleio-server working directory (created by kleio-server)
     * project_2
+        * ...
     * project_3
+        * ...
