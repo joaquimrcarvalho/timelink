@@ -29,7 +29,8 @@ A public replica machine can be installed in order to have a public version of t
 explained in
 [Create a new sources repository with a standard template](new_source_repository_from_template.md). 
 Lets call this project repository _sources_reference_. 
-2. Clone the `sources_reference` repository_ into an editor machine machine. 3. Change the READ.me file. 
+2. Clone the `sources_reference` repository_ into an editor machine machine. 
+3. Change the READ.me file. 
 4. Push to github
 5. Create a new `timelink/MHK` user associated with the new repository. 
 See [Creating an user with sources in a git repository](new_user_sources_in_git.md)
@@ -40,8 +41,8 @@ See [Creating an user with sources in a git repository](new_user_sources_in_git.
 2. Generate a personal access token for this repository (see instruction bellow)
 3. Clone the `sources_collab` repository on the collaborator machine.
 4. Collaborator edits and adds content to the sources collection.
-5. Collaborator pushes changes to sources_collab repository
-6. Collaborator pull reviewed work and new information form `sources_collab repositoty` (collaborator never interacts with sources_reference).
+5. Collaborator pushes changes to `sources_collab` repository
+6. Collaborator pull reviewed work and new information form `sources_collab repositoty` (collaborator never interacts with `sources_reference`).
 
 ### Setting up a public replica
 
@@ -56,9 +57,9 @@ See separate note
 
 Collaborators fork the main repository on github, and then clone to their machines.
 
-They contribute and push back to their cloned repository, not disturbing the main repository.
+They contribute and push back to their cloned repository, without disturbing the main repository.
 
-To review the collaborators' work editors clone the collaborators' repository in their machines.
+To review the collaborators' work, editors clone the collaborators' repository into their machines.
 
 They create an mhk user associated with the clone. This allows reviewing and editing the collaborator efforts.
 
@@ -66,7 +67,9 @@ Editor commits edits in the cloned collaborator repository and pushes them back 
 
 Collaborator can then pull and incorporate the changes made by the editor.
 
-If other changes are done to the main collection in the main repository that need to be shared with the contributors, the editor merges the upstream main repository into its clone of the collaborators repository and then pushes the result to github.  From this merged stage a pull request can be issued to the main repository by the contributor.
+If other changes are done to the main collection in the main repository that need to be shared with the contributors, the editor merges the upstream main repository into its clone of the collaborators repository and then pushes the result to github.  
+
+From this merged stage a pull request can be issued to the main repository by the contributor.
 
 ## Gists
 
