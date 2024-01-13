@@ -19,9 +19,9 @@ It contains the following subdirectories:
         * `mhk` (dir)
             * contains mhk import reports (xrpt e xerr) dentro de diretorias tipo /system/db/mhk/imports/dbname/path_to_file
         * `mysql`
-            * `backups` (dir) contains files created by database backup. Also location where `CLI` database commands look for SQL files to import.
-            * `db` (dir) MySQL database storage directory, maps to /vat/lib/mysql
-            * `init` (ficheiros de inicialização das bases de dados sql - sql, sql.gz e .sh - mapeia para /docker-entrypoint-initdb.d)
+            * `backups` (dir) contains files created by database backup. Also location where `mhk` database commands look for SQL files to import.
+            * `db` (dir) MySQL/MariaDB database storage directory, maps to /vat/lib/mysql
+            * `init` (files for database initialization sql - sql, sql.gz e .sh - mapeia para /docker-entrypoint-initdb.d)
 * `users`
     * user1
         * conf - configuration for this user
